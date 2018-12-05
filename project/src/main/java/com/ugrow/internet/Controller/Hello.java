@@ -9,6 +9,8 @@ public class Hello {
 	
 	@RequestMapping("/hello")
 	public String sayHello() {
+		
+		System.out.println(1111);
 		return "/front/index";
 	}
 

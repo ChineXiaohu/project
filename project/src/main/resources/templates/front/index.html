@@ -8,100 +8,139 @@
   <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-  <!-- nav部分 -->
-  <div class="nav index">
-    <div class="layui-container">
-      <!-- 公司logo -->
-      <div class="nav-logo">
-        <a href="index.html">
-          <img src="/img/logo.png" alt="类友网络">
-        </a>
-      </div>
-      <div class="nav-list">
-        <button>
-          <span></span><span></span><span></span>
-        </button>
-        <ul class="layui-nav" lay-filter="">
-          <li class="layui-nav-item layui-this"><a href="index.html">首页</a></li>
-          <li class="layui-nav-item"><a href="product.html">产品</a></li>
-          <li class="layui-nav-item"><a href="news.html">动态</a></li>
-          <li class="layui-nav-item"><a href="case.html">案例</a></li>
-          <li class="layui-nav-item"><a href="about.html">关于</a></li>
-        </ul>
-      </div>
-    </div>
+
+  <div class="head">
+  <div style="height: 30px;display: inline;width: 100%;">
+ <span class="breadcrumb">
+ 			 <a href="">学校首页|</a>
+ 			 <a href="">设为首页|</a>
+ 			 <a href="">加入收藏|</a>
+ 			 <a href="">联系方式</a>
+	</span>
+	</div>
+ 	<div class="pic">
+ 	
+ 	
+ 	</div>	 
+  	<div class="daohang"> 	
+  <ul class="layui-nav">
+  <li class="layui-nav-item"><a href="">网站首页</a></li>
+  <li class="layui-nav-item layui-this"><a href="">中心概况</a></li>
+  <li class="layui-nav-item"><a href="">新闻公告</a></li>
+  <li class="layui-nav-item">
+    <a href="javascript:;">规章制度</a>
+    <dl class="layui-nav-child">
+      <dd><a href="">移动模块</a></dd>
+      <dd><a href="">后台模版</a></dd>
+      <dd><a href="">电商平台</a></dd>
+    </dl>
+  </li>
+  <li class="layui-nav-item"><a href="">实验教学</a></li>
+  <li class="layui-nav-item"><a href="">成功展示</a></li>
+  <li class="layui-nav-item"><a href="">对外服务</a></li>
+  <li class="layui-nav-item"><a href="">资料下载</a></li>
+</ul> 
+  
   </div>
+  </div>
+  
   <!-- banner部分 -->
-  <div>
-    <div class="layui-carousel" id="banner">
-      <div carousel-item>
-        <div>
-          <img src="/img/banner1.jpg">
-          <div class="panel">
-            <p class="title">类友网络</p>
-            <p>完美前端体验</p>
-          </div>
-        </div>
-        <div>
-          <img src="/img/banner2.jpg">
-          <div class="panel">
-            <p class="title">类友网络</p>
-            <p>完美前端体验</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- main部分 -->
 
   <div class="main-service">
     <div class="layui-container">
-      <p class="title">为客户打造完美的<span>专业服务</span></p>
+     <p class="title"></p> 
+      
       <div class="layui-row layui-col-space25 layui-col-space80">
-        <div class="layui-col-sm6">
+        <div class="layui-col-sm6 col-top">
           <div class="content">
-            <div class="content-left"><img src="/img/home_img1.jpg"></div>
-            <div class="content-right">
-              <p class="label">1 对 1 前端指导</p>
-              <span></span>
-              <p>更有多个包含不同主题的Web组件，可快速构建界面出色、体验优秀的跨屏页面，大幅提升开发效率。</p>
+       <!-- 轮播 --> 
+			<div class="layui-carousel" id="test10">
+            <div carousel-item="">
+   			 	 <div><img src="//res.layui.com/images/layui/demo/1.png"></div>
+   				 <div><img src="//res.layui.com/images/layui/demo/2.png"></div>
+    			 <div><img src="//res.layui.com/images/layui/demo/3.png"></div>
+   			     <div><img src="//res.layui.com/images/layui/demo/4.png"></div>
+   			     <div><img src="//res.layui.com/images/layui/demo/5.png"></div>
             </div>
-          </div>
+     </div>
+           
+           </div>
+           </div>
+   
+        <div class="layui-col-sm6 col-top">
+             <div class="content">
+          <div class="title">
+         <div class="main"><a>新闻动态</a></div><div class="more"><a>>更多</a></div>
+         <hr/>
         </div>
-        <div class="layui-col-sm6">
-          <div class="content">
-            <div class="content-left"><img src="/img/home_img2.jpg"></div>
-            <div class="content-right">
-              <p class="label">1 对 1 前端指导</p>
-              <span></span>
-              <p>更有多个包含不同主题的Web组件，可快速构建界面出色、体验优秀的跨屏页面，大幅提升开发效率。</p>
+        <div class="table">
+             <table>
+             <tr>
+             <td width="68%">内容内容内容</td>
+             <td width="32%">2018-12-24</td>
+             </tr>
+              <tr>
+            <td width="68%">内容</td>
+             <td width="32%">时间</td>
+             </tr>
+              <tr>
+             <td width="68%">内容</td>
+             <td width="32%">时间</td>
+             </tr>
+             </table></div>
             </div>
-          </div>
         </div>
-        <div class="layui-col-sm6">
-          <div class="content">
-            <div class="content-left"><img src="/img/home_img3.jpg"></div>
-            <div class="content-right">
-              <p class="label">1 对 1 前端指导</p>
-              <span></span>
-              <p>更有多个包含不同主题的Web组件，可快速构建界面出色、体验优秀的跨屏页面，大幅提升开发效率。</p>
-            </div>
-          </div>
+         <div class="layui-col-sm6 col-top">
+            <div class="content">
+          <div class="title">
+         <div class="main"><a>新闻动态</a></div><div class="more"><a>>更多</a></div>
+          <hr/>
         </div>
-        <div class="layui-col-sm6">
-          <div class="content">
-            <div class="content-left"><img src="/img/home_img4.jpg"></div>
-            <div class="content-right">
-              <p class="label">1 对 1 前端指导</p>
-              <span></span>
-              <p>更有多个包含不同主题的Web组件，可快速构建界面出色、体验优秀的跨屏页面，大幅提升开发效率。</p>
+       <div class="table">
+             <table >
+             <tr>
+               <td width="68%">内容</td>
+             <td width="32%">时间</td>
+             </tr>
+             </table></div>
             </div>
-          </div>
+        </div>
+        <div class="layui-col-sm6 col-bottom">
+             <div class="content" style="width: 100%">
+          <div class="title">
+         <div class="main"><a>新闻动态</a></div><div class="more"><a>>更多</a></div>
+          <hr/>
+        </div>
+             <div class="table">
+             <table>
+             <tr>
+               <td width="68%">内容</td>
+             <td width="32%">时间</td>
+             </tr>
+             </table></div>
+            </div>
+        </div>
+        <div class="layui-col-sm6 col-bottom">
+            <div class="content"style="width: 100%">
+          <div class="title">
+         <div class="main"><a>新闻动态</a></div><div class="more"><a>>更多</a></div>
+          <hr/>
+        </div>
+   			  <div class="table">
+             <table>
+             <tr>
+             <td>内容</td>
+             <td>时间</td>
+             </tr>
+             </table></div>
+            </div>
         </div>
       </div>
-      <div class="service-more"><a href="">查看更多</a></div>
+      <div class="service-more"></div>
     </div>
   </div>
+ 
   <!-- footer部分 -->
   <div class="footer">
     <div class="layui-container">
@@ -137,9 +176,27 @@
   <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <script>
-  layui.config({
+layui.config({
     base: '/js/' 
   }).use('firm'); 
+layui.use(['carousel', 'form','element'], function(){
+	  var carousel = layui.carousel
+	  ,form = layui.form
+	  element=layui.element;
+	  
+	  element.on('nav(demo)', function(elem){
+		    //console.log(elem)
+		    layer.msg(elem.text());
+		  });
+	  carousel.render({
+		    elem: '#test10'
+		    ,width: '320px'
+		    ,height: '280px'
+		    ,interval: 5000
+		  });
+	  
+	
+});
 </script>
 </body>
 </html>
